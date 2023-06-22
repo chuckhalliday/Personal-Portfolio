@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
       I know senior elected government officials who I can force my political.. bias and influence on fellow.. politicians, to vote my way..  For a payoff of course
       </SectionText>
-      <Button onClick={() => window.location = "https://isntthatcorrupt.com"}><img src='../images/Breen.png' width='20%' height='75%'/></Button>
+      <Button onClick={() => window.location = "https://isntthatcorrupt.com"}><img src='../images/Breen.png' width='10%' height='65%'/></Button>
     </LeftSection>
   </Section>
 );
