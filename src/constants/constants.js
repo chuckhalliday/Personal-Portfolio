@@ -4,8 +4,8 @@ export const projects = [
     description: "The greatest band ever conceived",
     image: '/images/TW.gif',
     tags: ['PostgreSQL', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    code: 'https://github.com/chuckhalliday/TaylorWinfrey',
+    visit: 'https://soft-arithmetic-d579e0.netlify.app/',
     id: 0,
   },
   {
@@ -13,16 +13,16 @@ export const projects = [
     description:"The greatest way to give me 40 bucks",
     image: '/images/40dollars.jpeg',
     tags: ['Vue', 'Bulma', 'Django', 'Stripe.js'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    code: 'https://github.com/chuckhalliday/FortyBucks',
+    visit: 'https://www.givemefortybucks.com/',
     id: 1,
   },
-  {
+  /* {
     title: 'Advisor.Autos',
     description: "The greatest way to service your car",
     image: '/images/AdvisorLights.png',
     tags: ['MongoDB', 'Swift'],
-    source: 'https://google.com',
+    code: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
   },
@@ -31,10 +31,10 @@ export const projects = [
     description: "The greatest place to get the big D",
     image: '/images/ConsentChecks.png',
     tags: ['Next.js'],
-    source: 'https://google.com',
+    code: 'https://google.com',
     visit: 'https://google.com',
     id: 3,
-  },
+  }, */
 ];
 
 export const TimeLineData = [
