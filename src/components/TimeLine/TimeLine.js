@@ -19,7 +19,7 @@ const Timeline = () => {
     e.preventDefault();
 
     if (carouselRef.current) {
-      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
+      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (INITIAL_ACTIVE_ITEM / TimeLineData.length));
       
       scroll(carouselRef.current, scrollLeft);
     }
