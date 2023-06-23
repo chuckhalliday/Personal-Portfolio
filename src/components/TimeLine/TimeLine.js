@@ -5,9 +5,10 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
+const INITIAL_ACTIVE_ITEM = 17
 
 const Timeline = () => {
-  const [activeItem, setActiveItem] = useState(0);
+  const [activeItem, setActiveItem] = useState(INITIAL_ACTIVE_ITEM);
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
@@ -40,6 +41,15 @@ const Timeline = () => {
     }
 
     window.addEventListener('resize', handleResize);
+
+    if (carouselRef.current) {
+      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (INITIAL_ACTIVE_ITEM / TimeLineData.length));
+      scroll(carouselRef.current, scrollLeft);
+    }
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return (
