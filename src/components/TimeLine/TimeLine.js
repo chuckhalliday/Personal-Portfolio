@@ -15,7 +15,7 @@ const Timeline = () => {
     return node.scrollTo({ left, behavior: 'smooth' });
   }
 
-  const handleClick = (e, i) => {
+  const handleClick = (e) => {
     e.preventDefault();
 
     if (carouselRef.current) {
