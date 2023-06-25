@@ -9,7 +9,7 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link legacyBehavior href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px" }}>
+        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
           <Span>Charles H Clark</Span>
         </a>
       </Link>
