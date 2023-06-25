@@ -118,7 +118,7 @@ export const CarouselItemText = styled.p`
   }
 `
 export const CarouselButtons = styled.div`
-  width: 288px;
+  width: 90%;
 
   display: none;
   visibility: hidden;
@@ -135,8 +135,8 @@ export const CarouselButton = styled.button`
   background: none;
   padding: 4px;
   border: none;
-  cursor: pointer;
   margin-right: 4px;
+  cursor: pointer;
   opacity: ${(props) => props.active === props.index ? `1` : `.33`};
   transform: ${(props) => props.active === props.index ? `scale(1.6)` : `scale(1)`};
 

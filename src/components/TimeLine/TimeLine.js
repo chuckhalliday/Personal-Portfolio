@@ -104,6 +104,7 @@ const Timeline = () => {
         {TimeLineData.map((item, index) => {
           return (
             <CarouselButton
+              item={item}
               key={index}
               index={index}
               active={activeItem}

@@ -17,7 +17,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with HTML5/CSS3, React/Redux and Vue
+            Experience with HTML, CSS, React/Redux, and Vue
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,7 +35,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Machine Learning</ListTitle>
           <ListParagraph>
-            Practice with developing and training models in both Javascript and Python
+            Practice with building and training models in both Javascript and Python
           </ListParagraph>
         </ListContainer>
       </ListItem>
