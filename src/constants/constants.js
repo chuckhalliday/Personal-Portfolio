@@ -9,7 +9,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Give Me 40 Bucks',
+    title: 'Give Me Forty Bucks',
     description:"Ranked number one on Forbes' top forty places to give me exactly forty bucks",
     image: '/images/40dollars.jpeg',
     tags: ['Vue', 'Bulma', 'Django', 'Stripe.js'],
