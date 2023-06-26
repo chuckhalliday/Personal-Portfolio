@@ -51,8 +51,8 @@ export const TimeLineData = [
   { year: 2017, text: 'Became Chevy/GM Certified', },
   { year: 2018, text: 'Became Subaru Certified and achieved highest personal sales month - 18 vehicles', },
   { year: 2019, text: 'Took on position as Service Advisor, averaging $875,000 annually in personal sales', },
-  { year: 2020, text: 'Began web development journey', },
-  { year: 2021, text: 'Deployed my first full stack-application', },
+  { year: 2020, text: 'Began web development journey with online courses through Codecademy', },
+  { year: 2021, text: 'Deployed my first full-stack application', },
   { year: 2022, text: 'Expanded my knowledge of algorithms, data structures, and machine learning', },
   { year: 2023, text: 'Continue to apply my ever expanding skill sets to personally motivating artistic endeavors', },
 ];
