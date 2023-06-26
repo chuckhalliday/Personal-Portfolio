@@ -14,7 +14,7 @@ const Header = () =>  (
         </a>
       </Link>
     </Div1>
-    <Div2>
+    <Div2 style={{ marginTop: "8px"}}>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
