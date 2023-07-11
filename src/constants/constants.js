@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Give Me Forty Bucks',
-    description: "Ranked number one on Forbes' top forty places to give me exactly forty bucks",
+    description: "Ranked number one on Forbes' top forty places to give me exactly forty bucks (Backend currently offline)",
     image: '/images/40dollars.jpeg',
     tags: ['Vue', 'Bulma', 'Django', 'Stripe.js'],
     code: 'https://github.com/chuckhalliday/FortyBucks',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Taylor Winfrey',
-    description: "The most powerful three man supergroup to ever perform in Emmett's living room",
+    description: "The most powerful three man supergroup to ever perform in Emmett's living room (Backend currently offline)",
     image: '/images/TW.gif',
     tags: ['PostgreSQL', 'Express', 'React', 'Node'],
     code: 'https://github.com/chuckhalliday/TaylorWinfrey',
