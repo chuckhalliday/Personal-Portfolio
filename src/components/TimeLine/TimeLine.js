@@ -5,7 +5,7 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
-const INITIAL_ACTIVE_ITEM = 17
+const INITIAL_ACTIVE_ITEM = 10
 
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(INITIAL_ACTIVE_ITEM);
@@ -48,7 +48,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Professional salesperson, jack of all trades!
+      Jack of all trades, master of.. some?!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Give Me Forty Bucks',
     description: "Ranked number one on Forbes' top forty places to give me forty bucks",
-    image: '/images/40dollars.png',
+    image: '/images/40Dollars.png',
     tags: ['Vue', 'Bulma', 'Django', 'Stripe.js'],
     code: 'https://github.com/chuckhalliday/FortyBucks',
     visit: 'https://www.givemefortybucks.com/',
