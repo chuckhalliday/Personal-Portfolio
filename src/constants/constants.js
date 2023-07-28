@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Node Composer',
-    description: "Creates full song skeletons based off a custom (in development) algorithm",
+    description: "Creates full song skeletons based off a custom algorithm",
     image: '/images/NCStill.png',
     tags: ['Typescript', 'React', 'Node'],
     code: 'https://github.com/chuckhalliday/nodecomposer',
@@ -10,8 +10,8 @@ export const projects = [
   },
   {
     title: 'Give Me Forty Bucks',
-    description: "Ranked number one on Forbes' top forty places to give me exactly forty bucks (Backend currently offline)",
-    image: '/images/40dollars.jpeg',
+    description: "Ranked number one on Forbes' top forty places to give me forty bucks",
+    image: '/images/40dollars.png',
     tags: ['Vue', 'Bulma', 'Django', 'Stripe.js'],
     code: 'https://github.com/chuckhalliday/FortyBucks',
     visit: 'https://www.givemefortybucks.com/',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Taylor Winfrey',
-    description: "The most powerful three man supergroup to ever perform in Emmett's living room (Backend currently offline)",
+    description: "The most powerful three man supergroup to not be sued... yet",
     image: '/images/TW.gif',
     tags: ['PostgreSQL', 'Express', 'React', 'Node'],
     code: 'https://github.com/chuckhalliday/TaylorWinfrey',
@@ -49,16 +49,14 @@ export const projects = [
 export const TimeLineData = [
   { year: 2007, text: 'Graduated Fairfield Ludlowe High School', },
   { year: 2008, text: 'Attended University of Montana for Audio Engineering and Music Composition', },
-  { year: 2009, text: 'Spent summer working on boats and in canneries in Homer, Alaska', },
   { year: 2010, text: 'Traveled extensively, eventually hitting all 50 states and most of Canada', },
   { year: 2011, text: 'Moved to Anchorage, Alaska', },
-  { year: 2012, text: 'Learned to sell and was promoted to management at Kirby Company - traveling as far as Kodiak island', },
-  { year: 2014, text: 'Learned B2B sales at Fastenal Company', },
+  { year: 2012, text: 'Learned to sell and promoted to management at Kirby Company - traveling as far as Kodiak island', },
+  { year: 2014, text: 'Learned B2B sales at Fastenal', },
   { year: 2016, text: 'Moved to Portland, Oregon', },
   { year: 2018, text: 'Became Subaru Certified and achieved highest personal sales month - 18 vehicles', },
   { year: 2019, text: 'Took on position as Service Advisor, averaging $875,000 annually in personal sales', },
-  { year: 2020, text: 'Began web development journey with online courses through Codecademy', },
-  { year: 2021, text: 'Deployed my first full-stack application', },
-  { year: 2022, text: 'Expanded my knowledge of algorithms, data structures, and machine learning', },
+  { year: 2021, text: 'Began web development journey with online courses through Codecademy', },
+  { year: 2022, text: 'Deployed my first full-stack application', },
   { year: 2023, text: 'Continue to deepen my skill sets on personally motivating artistic endeavors', },
 ];
