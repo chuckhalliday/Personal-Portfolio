@@ -15,10 +15,11 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 30px;
 	color: rgba(255, 255, 255, 0.75);
 	margin-bottom: 16px;
+	margin-right: 16px;
 	transition: .3s ease;
 	position: relative;
 	left: 0;
@@ -29,7 +30,7 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.md} {
-		font-size: 16px;
+		font-size: 12px;
 		line-height: 28px;
 		display: flex;
 	}

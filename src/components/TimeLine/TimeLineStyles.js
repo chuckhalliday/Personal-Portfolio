@@ -139,7 +139,7 @@ export const CarouselButton = styled.button`
   cursor: pointer;
   opacity: ${(props) => props.active === props.index ? `1` : `.33`};
   transform: ${(props) => props.active === props.index ? `scale(1.6)` : `scale(1)`};
-
+  width: 100%;
   &:focus {
     outline: none;
   }
