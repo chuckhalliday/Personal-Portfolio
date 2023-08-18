@@ -18,7 +18,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Give Me Forty Bucks</LinkTitle>
-          <LinkItem href="https://givemefortybucks.com">I'm serious</LinkItem>
+          <LinkItem href="https://givemefortybucks.com">I'm serious.</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
