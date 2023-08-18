@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Give Me Forty Bucks',
-    description: `Ranked number one on the Forbes "Top 40 Places to Give ME 40 Bucks"`,
+    description: `Ranked #1 on Forbes' "Top 40 Places to Give ME 40 Bucks"`,
     image: '/images/40Dollars.png',
     tags: ['Vue', 'Bulma', 'Django', 'Stripe.js'],
     code: 'https://github.com/chuckhalliday/FortyBucks',
