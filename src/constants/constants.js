@@ -1,9 +1,9 @@
 export const projects = [
   {
     title: 'Node Composer',
-    description: "Creates full song skeletons based off a developing algorithm",
+    description: "Creates full three part song skeletons that can be edited and sent to a DAW via MIDI through the IAC driver (Mac)",
     image: '/images/NCStill.png',
-    tags: ['Typescript', 'React', 'Node'],
+    tags: ['Typescript', 'React', 'Redux', 'Node'],
     code: 'https://github.com/chuckhalliday/nodecomposer',
     visit: 'https://node-composer.vercel.app',
     id: 0,
@@ -26,16 +26,16 @@ export const projects = [
     visit: 'https://soft-arithmetic-d579e0.netlify.app/',
     id: 2,
   },
-  /* {
-    title: 'Advisor.Autos',
-    description: "The greatest way to service your car",
-    image: '/images/AdvisorLights.png',
-    tags: ['MongoDB', 'Swift'],
-    code: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
   {
+    title: 'Auto Advisor',
+    description: "IOS app that I am developing to replace myself before someone else inevitably does",
+    image: '/images/AdvisorSS.png',
+    tags: ['Swift', 'MongoDB'],
+    code: 'https://github.com/chuckhalliday/Auto-Advisor-IOS-App',
+    /*visit: 'https://google.com',*/
+    id: 3,
+  },
+  /*{
     title: 'Consent Party',
     description: "The greatest place to get the big D",
     image: '/images/ConsentChecks.png',
