@@ -56,7 +56,7 @@ export const TimeLineData = [
   { year: 2016, text: 'Moved to Portland, Oregon', },
   { year: 2018, text: 'Became Chevy/GM Certified', },
   { year: 2018, text: 'Became Subaru Certified and achieved highest personal month in sales - 18 vehicles', },
-  { year: 2019, text: 'Began role as Service Advisor, averaging $1,000,000 annually in managed repair orders', },
+  { year: 2019, text: 'Attained role as Service Advisor, assisting upwards of 300 clients monthly', },
   { year: 2021, text: 'Began web development journey with online courses through Codecademy and AlgoExpert', },
   { year: 2022, text: 'Deployed my first full-stack application', },
   { year: 2023, text: 'Continue to deepen my technical skill sets with a focus on personally motivating artistic endeavors', },
