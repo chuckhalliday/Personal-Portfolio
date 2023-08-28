@@ -31,7 +31,7 @@ export const projects = [
     description: "IOS app that I am developing to replace myself before someone else inevitably does",
     image: '/images/AdvisorSS.png',
     tags: ['Swift', 'MongoDB'],
-    code: 'https://github.com/chuckhalliday/Auto-Advisor-IOS-App',
+    code: 'https://github.com/chuckhalliday/AutoAdvisorIOS',
     /*visit: 'https://google.com',*/
     id: 3,
   },
