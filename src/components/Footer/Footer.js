@@ -16,10 +16,6 @@ const Footer = () => {
           <LinkTitle>Email</LinkTitle>
           <LinkItem id="email" href="mailto:chuckhallidaypdx@gmail.com">chuckhallidaypdx@gmail.com</LinkItem>
         </LinkColumn>
-        <LinkColumn>
-          <LinkTitle>Give Me Forty Bucks</LinkTitle>
-          <LinkItem href="https://givemefortybucks.com">I'm serious.</LinkItem>
-        </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
