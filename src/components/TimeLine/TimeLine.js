@@ -5,7 +5,7 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
-const INITIAL_ACTIVE_ITEM = 11
+const INITIAL_ACTIVE_ITEM = 8
 
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(INITIAL_ACTIVE_ITEM);
