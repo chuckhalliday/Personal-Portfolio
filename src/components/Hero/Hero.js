@@ -10,8 +10,8 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio
+        Checkout My Portfolio! <br />
+        Important Disclaimer:
       </SectionTitle>
       <SectionText>
         I know senior.. elected.. government officials, who I can force my political bias and.. influence on fellow.... politicians.. to vote MY way.. For a payoff, of course.
