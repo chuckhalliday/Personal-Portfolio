@@ -48,7 +48,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Experienced salesperson, musician, and explorer!
+      I'm an experienced & enthusiastic salesperson, musician, and explorer. Though my main focus is on programming, I am also comfortable with project management and client relations!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
