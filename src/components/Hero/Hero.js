@@ -16,7 +16,7 @@ const Hero = (props) => (
         Important Disclaimer:
       </SectionSubTitle>
       <SectionText>
-        I know senior.. elected.. government officials, who I can force my political bias and.. influence on fellow.... politicians.. to vote MY way.. For a payoff, of course.
+        I know senior.. elected.. government officials, who I can force my political bias and.. influence, on fellow.... politicians.. <br /> To vote MY way. For a payoff, of course..
       </SectionText>
       <Button onClick={() => window.open("https://isntthatcorrupt.com")}>
       <ZoomImage src='../images/Breen.png' alt="Button Image"/> 
