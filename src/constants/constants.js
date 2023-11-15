@@ -53,8 +53,8 @@ export const TimeLineData = [
   { year: 2011, text: 'Moved to Anchorage, Alaska', },
   { year: 2012, text: 'Began to gain experience in both sales and management (including door to door and B2B prosecting)', },
   { year: 2016, text: 'Moved to Portland, Oregon', },
-  { year: 2019, text: 'Offered current role as an automotive ASM in a high-volume environment (upwards of 300 monthly clients)', },
-  { year: 2021, text: 'Began web development journey with online courses through Codecademy and AlgoExpert', },
+  { year: 2019, text: 'Offered role as an automotive ASM in a high-volume shop (averaging $1 million+ in personal production)', },
+  { year: 2021, text: 'Began web development journey with orientation from Codecademy and AlgoExpert', },
   { year: 2022, text: 'Deployed my first full-stack application', },
   { year: 2023, text: 'Continue to deepen my technical skill sets with a focus on personally motivating artistic endeavors', },
 ];
