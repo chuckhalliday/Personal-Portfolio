@@ -33,9 +33,9 @@ const Technologies = () =>  (
       <ListItem>
         <DiFirebase size = "3rem" />
         <ListContainer>
-          <ListTitle>DAWs & Audio Libraries</ListTitle>
+          <ListTitle>DAWs and DSP</ListTitle>
           <ListParagraph>
-            Ableton, Max, JUCE, Essentia, and Sonic Pi
+            Ableton, Max for Live, JUCE, Essentia, and Sonic Pi
           </ListParagraph>
         </ListContainer>
       </ListItem>
