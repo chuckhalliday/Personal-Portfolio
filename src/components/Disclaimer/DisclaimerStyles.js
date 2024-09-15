@@ -17,3 +17,17 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+const zoomAnimation = keyframes` // Define a keyframes animation
+  from {
+    transform: scale(1.3);
+  }
+  to {
+    transform: scale(8) translateY(4%);
+  }
+`;
+
+export const ZoomImage = styled.img`
+  height: 100%;
+  animation: ${zoomAnimation} 4s ease-in-out infinite;
+`;

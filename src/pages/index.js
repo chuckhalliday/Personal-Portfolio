@@ -1,5 +1,6 @@
 import Acomplishments from '../components/Acomplishments/Acomplishments';
 import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation';
+import Disclaimer from '../components/Disclaimer/Disclaimer';
 import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
@@ -18,6 +19,9 @@ const Home = () => {
       <Technologies />
       <Timeline />
     {/* <Acomplishments /> */}
+      <Section grid>
+        <Disclaimer />
+      </Section>
     </Layout>
   );
 };

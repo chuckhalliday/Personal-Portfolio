@@ -1,26 +1,18 @@
 import React from 'react';
 import { Section, SectionText, SectionTitle, SectionSubTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
-import { ZoomImage } from './HeroStyles';
 
 
 
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle main center>
-        Checkout My Portfolio! <br />
+      <SectionTitle>
+        Welcome to my web portfolio!
       </SectionTitle>
-      <SectionSubTitle>
-        Important Disclaimer:
-      </SectionSubTitle>
       <SectionText>
-        I know senior.. elected.. government officials, who I can force my political bias and.. influence, on fellow.... politicians.. <br /> To vote MY way. For a payoff, of course..
+        I'm a focused and enthusiatic programmer, continuously educating myself on the latest tech trends at both high and low levels. Take a look at some of my deployed applications below and please feel free to link with me on Github!
       </SectionText>
-      <Button onClick={() => window.open("https://isntthatcorrupt.com")}>
-      <ZoomImage src='../images/Breen.png' alt="Button Image"/> 
-      </Button>
     </LeftSection>
   </Section>
 );
