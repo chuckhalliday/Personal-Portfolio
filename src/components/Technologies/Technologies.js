@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I work with a wide range of technologies, with a focus on web development and music production tools
+      I work with a wide range of technologies, with a primary motivating focus on web development, cybersecurity, and audio production tools
     </SectionText>
     <List>
       <ListItem>
@@ -17,7 +17,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            HTML5, CSS3, React/Redux, Vue, and Swift
+            React/Redux, Vue, HTML, CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -26,7 +26,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            C++, Django, Node, Express, and PostgreSQL
+            C++, Django, Node, SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,7 +35,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>DAWs and DSP</ListTitle>
           <ListParagraph>
-            Ableton, Max for Live, JUCE, Essentia, and Sonic Pi
+            Ableton, Max for Live, JUCE, Essentia
           </ListParagraph>
         </ListContainer>
       </ListItem>
