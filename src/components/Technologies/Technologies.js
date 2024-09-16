@@ -26,7 +26,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            C++, Django, Node, SQL
+            C++, Python, Node, SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,7 +35,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>DAWs and DSP</ListTitle>
           <ListParagraph>
-            Ableton, Max for Live, JUCE, Essentia
+            Max for Live, Ableton, JUCE, Essentia
           </ListParagraph>
         </ListContainer>
       </ListItem>

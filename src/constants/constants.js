@@ -3,7 +3,7 @@ export const projects = [
     title: 'Autobot Buddy',
     description: `"ASM assistant" application designed to emulate the discovery and recommendation process of a service advisor, complete with a chatbot that queries owner's manuals by VIN`,
     image: '/images/Autobot.png',
-    tags: ['Python', 'Django', 'OpenAI'],
+    tags: ['Python', 'Django', 'Docker', 'OpenAI'],
     code: 'https://github.com/chuckhalliday/Autobot-Buddy',
     /*visit: 'https://google.com',*/
     id: 0,
@@ -21,7 +21,7 @@ export const projects = [
     title: 'Forty Bucks Shop',
     description: `Ranked #1 on Forbes' "Top 40 Places to Give Me Exactly 40 Bucks."`,
     image: '/images/40Dollars.png',
-    tags: ['Vue', 'Django', 'Stripe.js'],
+    tags: ['Vue', 'Python', 'Django', 'Stripe.js'],
     code: 'https://github.com/chuckhalliday/Forty-Bucks-Shop',
     visit: 'https://www.givemefortybucks.com/',
     id: 2,
