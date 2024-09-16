@@ -48,7 +48,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I'm a "jack of all trades" professional, who proudly overcame my introverted and analytical disposition to find success in customer service and sales. <br /> Though I've since found passion and purpose in programming, I always keep in mind that relationships with clients, teammates, and close friends are the most important things in life!
+      I'm a "jack of all trades" professional, who proudly overcame my introverted and analytical disposition to find success in customer service and sales. <br /> Though I've since found passion and purpose in programming, I always try to keep in mind that it's relationships with clients, teammates, and close friends that make it all worthwhile!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
