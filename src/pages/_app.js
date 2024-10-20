@@ -23,6 +23,7 @@ export default function App({ Component, pageProps }) {
     <>
       {!videoEnded ? (
         <Container>
+          <Title onClick={handleVideoPlay}>Welcome to the World Wide Web!!! Click to login...</Title>
           <VideoStyled
             ref={videoRef}
             onEnded={handleVideoEnd}
@@ -34,7 +35,6 @@ export default function App({ Component, pageProps }) {
             <source src="../videos/AOL (Sign On - Dial Up).mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </VideoStyled>
-          <Title onClick={handleVideoPlay}>Welcome to the World Wide Web!!! Click to login...</Title>
           <SubTitle onClick={handleVideoEnd}>(Or... Join me in the future down here...)</SubTitle>
         </Container>
       ) : (

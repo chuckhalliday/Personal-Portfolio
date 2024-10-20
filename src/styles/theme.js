@@ -14,7 +14,11 @@ export const Container = styled.div`
 
 export const Title = styled.div`
   display: flex;
+  width: 100%;
   justify-content: center;
+  text-align: center;
+  position: fixed;
+  top: 10%;
   animation: flash 2s infinite;
 
   @keyframes flash {
@@ -35,6 +39,12 @@ export const SubTitle = styled.div`
 `;
 
 export const VideoStyled = styled.video`
+  display: flex;
+  align-items: center;
+  max-height: 60%;
+  position: relative;
+  top: 50%;  // Position it halfway down the page
+  transform: translateY(-50%);
   width: 103%;
   margin: -8px;
   object-fit: cover;
