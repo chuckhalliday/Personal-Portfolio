@@ -15,13 +15,20 @@ export const Container = styled.div`
 export const Title = styled.div`
   display: flex;
   justify-content: center;
-  animation: flash 1.5s infinite;
+  animation: flash 2s infinite;
 
   @keyframes flash {
     0% { color: black; }
-    50% { color: indigo; }
+    50% { color: red; }
     100% { color: black; }
   }
+`;
+
+export const SubTitle = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: purple;
 `;
 
 export const VideoStyled = styled.video`
