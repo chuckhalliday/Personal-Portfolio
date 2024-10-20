@@ -9,24 +9,33 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I work with a wide range of technologies, with a primary motivating focus on web development, cybersecurity, and audio production tools
+      I work with a wide range of languages, frameworks and tools, with a primary motivating focus on web development, cybersecurity, and audio production plugins
     </SectionText>
     <List>
       <ListItem>
         <DiFirebase size = "3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            React/Redux, Vue, HTML, CSS
+            Javascript/Typescript, HTML/CSS, Python, SQL, Bash, C++
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiFirebase size = "3rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Frameworks</ListTitle>
           <ListParagraph>
-            C++, Python, Node, SQL
+            React/Redux, Vue, Node.js, Django, Bootstrap, Tailwind CSS
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size = "3rem" />
+        <ListContainer>
+          <ListTitle>Tools</ListTitle>
+          <ListParagraph>
+            Git, Docker, Postman, Burp Suite, Storyboard, Jira, VS Code, AWS
           </ListParagraph>
         </ListContainer>
       </ListItem>

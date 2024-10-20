@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Autobot Buddy',
-    description: `"ASM assistant" application designed to emulate the discovery and recommendation process of a service advisor, complete with a chatbot that queries owner's manuals by VIN`,
+    description: `"ASM assistant" application designed to emulate the discovery and recommendation process of a professional service advisor, complete with a chatbot that queries owner's manuals directly by VIN`,
     image: '/images/Autobot.png',
     tags: ['Python', 'Django', 'Docker', 'OpenAI'],
     code: 'https://github.com/chuckhalliday/Autobot-Buddy',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'JSON Hit Builder',
-    description: "Creates full three part song skeletons that can be edited and sent to a DAW via MIDI through the IAC driver (Mac)",
+    description: "Creates randomized three-part song skeletons that can be edited and sent to your DAW via MIDI through the IAC driver (Mac)",
     image: '/images/NCStill.png',
     tags: ['Typescript', 'React', 'Redux', 'Node'],
     code: 'https://github.com/chuckhalliday/JSON-Hit-Builder',
@@ -49,13 +49,13 @@ export const projects = [
 export const TimeLineData = [
   { year: 2007, text: 'Graduated Fairfield Ludlowe High School', },
   { year: 2008, text: 'Attended University of Montana for Audio Engineering and Music Composition', },
-  { year: 2010, text: 'Traveled extensively, eventually hitting all 50 states and most of Canada', },
-  { year: 2011, text: 'Moved to Anchorage, Alaska', },
-  { year: 2012, text: 'Began honing my professional skills in technical troubleshooting, product demonstration and sales', },
+  { year: 2012, text: 'Moved to Anchorage, Alaska', },
+  { year: 2013, text: 'Began honing my professional skills in technical troubleshooting, sales, and management', },
+  { year: 2014, text: 'Traveled to Hawaii, officially hitting all 50 states', },
   { year: 2016, text: 'Moved to Portland, Oregon', },
-  { year: 2019, text: 'Offered first high-volume troubleshooting role as an automotive ASM', },
+  { year: 2019, text: 'Offered first high-volume ($1M+) troubleshooting role as an automotive ASM', },
   { year: 2021, text: 'Began web development journey with orientation from Codecademy and AlgoExpert', },
   { year: 2022, text: 'Deployed my first full-stack web application', },
-  { year: 2023, text: 'Deepened my computer science knowlege with focus on C++ and Assembly', },
+  { year: 2023, text: 'Deepened my "low-level" computer science knowlege with focus on C++ and Assembly', },
   { year: 2024, text: 'Continue to broaden my skillset with a focus on network principles and cybersecurity', },
 ];
