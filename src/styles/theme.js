@@ -43,8 +43,7 @@ export const VideoStyled = styled.video`
   align-items: center;
   max-height: 60%;
   position: relative;
-  top: 50%;  // Position it halfway down the page
-  transform: translateY(-50%);
+  padding-top: 150px;
   width: 103%;
   margin: -8px;
   object-fit: cover;
