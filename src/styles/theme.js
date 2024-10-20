@@ -26,7 +26,7 @@ export const Title = styled.div`
 
 export const VideoStyled = styled.video`
   width: 102%;
-  margin: -10px;
+  margin: -8px;
   object-fit: cover;
   border: none;
 `;
