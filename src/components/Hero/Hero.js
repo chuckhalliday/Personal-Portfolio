@@ -11,7 +11,7 @@ const Hero = (props) => (
         Great, You Made It!
       </SectionTitle>
       <SectionText>
-        Take a look around and please feel free to reach out, I'm always on the lookout for new projects and challenges.
+        Please take a look around and feel free to reach out via email or socials, I'm always on the lookout for new projects and challenges.
       </SectionText>
     </LeftSection>
   </Section>
