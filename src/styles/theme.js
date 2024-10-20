@@ -26,8 +26,11 @@ export const Title = styled.div`
 
 export const SubTitle = styled.div`
   display: flex;
+  width: 100%;
   justify-content: center;
-  margin-top: 100px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
   color: purple;
 `;
 
