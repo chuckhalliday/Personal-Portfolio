@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+export const Image = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 export const DropDownContainer = styled.div`
   position: absolute;
   display: flex;
