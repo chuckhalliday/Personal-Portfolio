@@ -25,8 +25,8 @@ export const Title = styled.div`
 `;
 
 export const VideoStyled = styled.video`
-  width: 104%;
-  margin: -18px;
+  width: 102%;
+  margin: -10px;
   object-fit: cover;
   border: none;
 `;
