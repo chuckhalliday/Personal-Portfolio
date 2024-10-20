@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Theme, Container, VideoStyled } from '../styles/theme';
+import { Theme, Container, Title, VideoStyled } from '../styles/theme';
 
 export default function App({ Component, pageProps }) {
   const [videoEnded, setVideoEnded] = useState(false);
@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
             <source src="../videos/AOL (Sign On - Dial Up).mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </VideoStyled>
-          
+          <Title onClick={handleVideoPlay}>Welcome to the World Wide Web!!! Click to login...</Title>
         </Container>
       ) : (
         <Theme>

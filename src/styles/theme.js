@@ -12,6 +12,18 @@ export const Container = styled.div`
   background-color: #AEB0B0;
 `;
 
+export const Title = styled.div`
+  display: flex;
+  justify-content: center;
+  animation: flash 1.5s infinite;
+
+  @keyframes flash {
+    0% { color: black; }
+    50% { color: indigo; }
+    100% { color: black; }
+  }
+`;
+
 export const VideoStyled = styled.video`
   width: 100%;
   object-fit: cover;
